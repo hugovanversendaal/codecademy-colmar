@@ -1,0 +1,22 @@
+
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+nav li {
+    display: inline;
+}
+
+
+/* Banner */
+
+#banner img {
+    width: 60%;
+}
