@@ -58,6 +58,7 @@ body section:nth-child(odd) {
 header {
     position: fixed;
     top: 0;
+    right: 0;
     height: 4rem;
     width: 100%;
     display: flex;
@@ -98,17 +99,21 @@ header ul li a {
 
 #banner {
   margin-top: 4rem;
+  width: 100%;
+  display:flex;
 }
   
 #banner-img {
   width: 60%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0.75rem;
 }
   
 #banner-img img {
     width: 100%;
     height: auto;
-    margin: 2rem 1.5rem;
 }
   
 #banner-text {
@@ -116,21 +121,21 @@ header ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    margin: 2rem 0.75rem;
   }
 
 #banner h2 {
       font-size: 2rem;
-      padding: 2rem 0;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
   }
   
 #banner-text a {
     background-color: #383838;
     text-align: center;
     text-decoration: none;
-    padding: 1rem 3rem;
-    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
@@ -198,7 +203,6 @@ header ul li a {
 #information .right article:last-child {
     background-color: lightgray;
 }
-
 
 #information .right article {
   display: flex;
@@ -269,7 +273,7 @@ header ul li a {
 /* Courses */
 #courses {
     flex-direction: column;
-  }
+}
   
 #courses h1 {
     width: 100%;
@@ -311,7 +315,7 @@ header ul li a {
 
   .courses-mobile {
     display: none;
-  }
+}
   
 /*Courses - Mobile*/
   
@@ -443,6 +447,7 @@ footer p {
 
 footer ul li {
   display: inline;
+  padding: 0 0.5rem;
 }
   
 footer ul li a {
